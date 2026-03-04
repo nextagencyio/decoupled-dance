@@ -1,0 +1,129 @@
+{
+  "data": {
+    "nodeClasses": {
+      "__typename": "NodeClassConnection",
+      "nodes": [
+        {
+          "__typename": "NodeClass",
+          "id": "class-ballet",
+          "title": "Classical Ballet",
+          "path": "/classes/classical-ballet",
+          "body": {
+            "processed": "<p>The foundation of all dance forms. Our ballet program develops grace, poise, strength, and musicality through the time-honored traditions of classical technique. Students progress through a structured curriculum from barre work to center combinations and across-the-floor allegro.</p><h2>Curriculum</h2><p>Based on the Vaganova method, our ballet classes emphasize clean lines, proper alignment, and artistic expression. Pointe work is available for advanced students with instructor approval.</p>",
+            "summary": "The foundation of all dance forms. Our ballet program develops grace, poise, strength, and musicality through the time-honored traditions of classical technique. Students progress through a structured"
+          },
+          "danceStyle": "Ballet",
+          "ageGroup": "Ages 7 and up",
+          "classLevel": "Beginner to Advanced",
+          "schedule": "Mon/Wed 4:00 PM (Beginner), Tue/Thu 5:30 PM (Intermediate), Sat 10:00 AM (Advanced)",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=800&q=80",
+            "alt": "Classical ballet class at the barre",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeClass",
+          "id": "class-hiphop",
+          "title": "Hip Hop",
+          "path": "/classes/hip-hop",
+          "body": {
+            "processed": "<p>High-energy classes that teach the latest choreography and foundational hip hop styles including popping, locking, breaking, and freestyle. Our instructors bring authentic street dance culture to the studio in a fun, inclusive atmosphere.</p><h2>What You Will Learn</h2><p>Rhythm and groove, body isolations, freestyle fundamentals, and choreographed routines set to current and classic hip hop tracks.</p>",
+            "summary": "High-energy classes that teach the latest choreography and foundational hip hop styles including popping, locking, breaking, and freestyle. Our instructors bring authentic street dance culture to the "
+          },
+          "danceStyle": "Hip Hop",
+          "ageGroup": "Ages 10 and up",
+          "classLevel": "All Levels",
+          "schedule": "Tue/Thu 6:30 PM, Sat 1:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+            "alt": "Hip hop dance class",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeClass",
+          "id": "class-contemporary",
+          "title": "Contemporary Dance",
+          "path": "/classes/contemporary-dance",
+          "body": {
+            "processed": "<p>Blending elements of ballet, modern, and jazz, contemporary dance emphasizes versatility, emotional expression, and floor work. Students explore movement through improvisation and choreography that pushes creative boundaries.</p><h2>Approach</h2><p>Influenced by Limon, Graham, and release techniques, our contemporary classes develop the whole dancer -- technically and artistically. Prior dance experience helpful but not required.</p>",
+            "summary": "Blending elements of ballet, modern, and jazz, contemporary dance emphasizes versatility, emotional expression, and floor work. Students explore movement through improvisation and choreography that pu"
+          },
+          "danceStyle": "Contemporary",
+          "ageGroup": "Ages 12 and up",
+          "classLevel": "Intermediate",
+          "schedule": "Mon/Wed 6:00 PM, Fri 4:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=800&q=80",
+            "alt": "Contemporary dance performance",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

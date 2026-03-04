@@ -1,0 +1,519 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Rhythm & Grace Dance Studio",
+          "path": "/homepage",
+          "heroTitle": "Where Every Step Tells a Story",
+          "heroSubtitle": "Rhythm & Grace Dance Studio",
+          "heroDescription": {
+            "processed": "<p>From first steps to center stage, we nurture dancers of all ages and abilities in a creative, supportive environment. Discover the joy of movement with our world-class instructors.</p>",
+            "summary": "From first steps to center stage, we nurture dancers of all ages and abilities in a creative, supportive environment. Discover the joy of movement with our world-class instructors."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-students",
+              "title": "",
+              "number": "500+",
+              "label": "Enrolled Students"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-styles",
+              "title": "",
+              "number": "12",
+              "label": "Dance Styles"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-performances",
+              "title": "",
+              "number": "8",
+              "label": "Annual Performances"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "20+",
+              "label": "Years of Excellence"
+            }
+          ],
+          "featuredItemsTitle": "Popular Classes",
+          "ctaTitle": "Start Dancing Today",
+          "ctaDescription": {
+            "processed": "<p>New students receive a free trial class in any style. No experience necessary -- just bring your enthusiasm and comfortable clothing.</p>",
+            "summary": "New students receive a free trial class in any style. No experience necessary -- just bring your enthusiasm and comfortable clothing."
+          },
+          "ctaPrimary": "Book Trial Class",
+          "ctaSecondary": "View Schedule"
+        }
+      }
+    }
+  },
+  "/classes/classical-ballet": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeClass",
+          "id": "class-ballet",
+          "title": "Classical Ballet",
+          "path": "/classes/classical-ballet",
+          "body": {
+            "processed": "<p>The foundation of all dance forms. Our ballet program develops grace, poise, strength, and musicality through the time-honored traditions of classical technique. Students progress through a structured curriculum from barre work to center combinations and across-the-floor allegro.</p><h2>Curriculum</h2><p>Based on the Vaganova method, our ballet classes emphasize clean lines, proper alignment, and artistic expression. Pointe work is available for advanced students with instructor approval.</p>",
+            "summary": "The foundation of all dance forms. Our ballet program develops grace, poise, strength, and musicality through the time-honored traditions of classical technique. Students progress through a structured"
+          },
+          "danceStyle": "Ballet",
+          "ageGroup": "Ages 7 and up",
+          "classLevel": "Beginner to Advanced",
+          "schedule": "Mon/Wed 4:00 PM (Beginner), Tue/Thu 5:30 PM (Intermediate), Sat 10:00 AM (Advanced)",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=800&q=80",
+            "alt": "Classical ballet class at the barre",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/classes/hip-hop": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeClass",
+          "id": "class-hiphop",
+          "title": "Hip Hop",
+          "path": "/classes/hip-hop",
+          "body": {
+            "processed": "<p>High-energy classes that teach the latest choreography and foundational hip hop styles including popping, locking, breaking, and freestyle. Our instructors bring authentic street dance culture to the studio in a fun, inclusive atmosphere.</p><h2>What You Will Learn</h2><p>Rhythm and groove, body isolations, freestyle fundamentals, and choreographed routines set to current and classic hip hop tracks.</p>",
+            "summary": "High-energy classes that teach the latest choreography and foundational hip hop styles including popping, locking, breaking, and freestyle. Our instructors bring authentic street dance culture to the "
+          },
+          "danceStyle": "Hip Hop",
+          "ageGroup": "Ages 10 and up",
+          "classLevel": "All Levels",
+          "schedule": "Tue/Thu 6:30 PM, Sat 1:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+            "alt": "Hip hop dance class",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/classes/contemporary-dance": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeClass",
+          "id": "class-contemporary",
+          "title": "Contemporary Dance",
+          "path": "/classes/contemporary-dance",
+          "body": {
+            "processed": "<p>Blending elements of ballet, modern, and jazz, contemporary dance emphasizes versatility, emotional expression, and floor work. Students explore movement through improvisation and choreography that pushes creative boundaries.</p><h2>Approach</h2><p>Influenced by Limon, Graham, and release techniques, our contemporary classes develop the whole dancer -- technically and artistically. Prior dance experience helpful but not required.</p>",
+            "summary": "Blending elements of ballet, modern, and jazz, contemporary dance emphasizes versatility, emotional expression, and floor work. Students explore movement through improvisation and choreography that pu"
+          },
+          "danceStyle": "Contemporary",
+          "ageGroup": "Ages 12 and up",
+          "classLevel": "Intermediate",
+          "schedule": "Mon/Wed 6:00 PM, Fri 4:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=800&q=80",
+            "alt": "Contemporary dance performance",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/instructors/adriana-russo": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeInstructor",
+          "id": "instructor-adriana",
+          "title": "Adriana Russo",
+          "path": "/instructors/adriana-russo",
+          "body": {
+            "processed": "<p>Adriana trained at the School of American Ballet and performed professionally with the Pacific Northwest Ballet for eight seasons before transitioning to teaching. Her ballet classes are known for their precision, musicality, and warmth.</p><p>She has choreographed award-winning pieces for regional competitions and our annual showcase. Students of all ages thrive under her patient, detail-oriented guidance.</p>",
+            "summary": "Adriana trained at the School of American Ballet and performed professionally with the Pacific Northwest Ballet for eight seasons before transitioning to teaching. Her ballet classes are known for the"
+          },
+          "danceStyles": "Ballet, Pointe, Character",
+          "email": "adriana@rhythmandgrace.com",
+          "trainingBackground": "School of American Ballet, Pacific Northwest Ballet",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Adriana Russo, ballet instructor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/instructors/deshawn-williams": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeInstructor",
+          "id": "instructor-deshawn",
+          "title": "DeShawn Williams",
+          "path": "/instructors/deshawn-williams",
+          "body": {
+            "processed": "<p>DeShawn has been a fixture in the underground hip hop scene for over a decade, competing internationally and choreographing for music videos and live shows. His classes bring the raw energy and authenticity of street dance to the studio.</p><p>He is passionate about preserving hip hop culture while making it accessible to the next generation of dancers.</p>",
+            "summary": "DeShawn has been a fixture in the underground hip hop scene for over a decade, competing internationally and choreographing for music videos and live shows. His classes bring the raw energy and authen"
+          },
+          "danceStyles": "Hip Hop, Breaking, Popping",
+          "email": "deshawn@rhythmandgrace.com",
+          "trainingBackground": "Self-taught, international competition circuit",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "DeShawn Williams, hip hop instructor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/instructors/katrina-novak": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeInstructor",
+          "id": "instructor-katrina",
+          "title": "Katrina Novak",
+          "path": "/instructors/katrina-novak",
+          "body": {
+            "processed": "<p>Katrina holds an MFA in Dance from NYU Tisch School of the Arts and has performed with Parsons Dance and the Martha Graham Dance Company. Her contemporary classes challenge students to find their unique artistic voice through movement exploration.</p><p>She also directs our student performance company, preparing dancers for collegiate and professional careers.</p>",
+            "summary": "Katrina holds an MFA in Dance from NYU Tisch School of the Arts and has performed with Parsons Dance and the Martha Graham Dance Company. Her contemporary classes challenge students to find their uniq"
+          },
+          "danceStyles": "Contemporary, Modern, Jazz",
+          "email": "katrina@rhythmandgrace.com",
+          "trainingBackground": "NYU Tisch MFA, Martha Graham School",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
+            "alt": "Katrina Novak, contemporary dance instructor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/performances/spring-showcase-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePerformance",
+          "id": "performance-spring",
+          "title": "Spring Showcase 2026",
+          "path": "/performances/spring-showcase-2026",
+          "body": {
+            "processed": "<p>Our annual spring showcase features performances from every class and age group in the studio. From tiny tots in their first tutus to our advanced company dancers, this beloved community event celebrates a year of growth, dedication, and artistry.</p><h2>Program Highlights</h2><ul><li>Opening number featuring the entire studio</li><li>Classical ballet excerpts from Swan Lake</li><li>Student choreography showcase</li><li>Advanced company premiere piece</li></ul>",
+            "summary": "Our annual spring showcase features performances from every class and age group in the studio. From tiny tots in their first tutus to our advanced company dancers, this beloved community event celebra"
+          },
+          "performanceDate": {
+            "timestamp": 1778976000
+          },
+          "venue": "Civic Arts Center Main Stage",
+          "ticketPrice": "$20 adults, $12 children",
+          "ticketUrl": "https://example.com/spring-showcase-tickets",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=800&q=80",
+            "alt": "Dance performance on stage",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/performances/the-nutcracker-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePerformance",
+          "id": "performance-nutcracker",
+          "title": "The Nutcracker 2026",
+          "path": "/performances/the-nutcracker-2026",
+          "body": {
+            "processed": "<p>A holiday tradition since 2008, our full-length production of The Nutcracker enchants audiences with stunning costumes, a live orchestra, and dancers ranging from age 5 to adult. Over 100 performers bring this timeless story to life.</p><h2>Performances</h2><ul><li>Friday evening, December 11 at 7:00 PM</li><li>Saturday matinee, December 12 at 2:00 PM</li><li>Saturday evening, December 12 at 7:00 PM</li><li>Sunday matinee, December 13 at 2:00 PM</li></ul>",
+            "summary": "A holiday tradition since 2008, our full-length production of The Nutcracker enchants audiences with stunning costumes, a live orchestra, and dancers ranging from age 5 to adult. Over 100 performers b"
+          },
+          "performanceDate": {
+            "timestamp": 1797037200
+          },
+          "venue": "Grand Theater",
+          "ticketPrice": "$25-$45",
+          "ticketUrl": "https://example.com/nutcracker-tickets",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1509670811615-bb8b07cb3caf?w=800&q=80",
+            "alt": "Nutcracker ballet performance",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1509670811615-bb8b07cb3caf?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1509670811615-bb8b07cb3caf?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1509670811615-bb8b07cb3caf?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/performances/urban-moves-showcase": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePerformance",
+          "id": "performance-hiphop-battle",
+          "title": "Urban Moves Showcase",
+          "path": "/performances/urban-moves-showcase",
+          "body": {
+            "processed": "<p>An electrifying evening of hip hop, breaking, and urban dance styles. Featuring our hip hop classes, guest performers, and a freestyle battle open to all ages. DJ sets, food trucks, and a vibrant community atmosphere make this our most energetic event of the year.</p><h2>Event Details</h2><ul><li>Pre-show DJ set and food trucks at 5:00 PM</li><li>Showcase begins at 6:30 PM</li><li>Open freestyle battle at 8:00 PM</li><li>All ages welcome</li></ul>",
+            "summary": "An electrifying evening of hip hop, breaking, and urban dance styles. Featuring our hip hop classes, guest performers, and a freestyle battle open to all ages. DJ sets, food trucks, and a vibrant comm"
+          },
+          "performanceDate": {
+            "timestamp": 1787436000
+          },
+          "venue": "Studio Parking Lot (Outdoor Stage)",
+          "ticketPrice": "Free admission",
+          "ticketUrl": "https://example.com/urban-moves",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80",
+            "alt": "Urban dance showcase",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Rhythm & Grace Dance Studio",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Rhythm & Grace Dance Studio has been a cornerstone of the local arts community since 2005. Founded by former professional dancer Maria Esperanza, the studio began with just two ballet classes and has grown into a comprehensive dance education center offering 12 styles across multiple studios.</p><h2>Our Mission</h2><p>To inspire a lifelong love of dance by providing exceptional instruction in a nurturing, inclusive environment where every student can discover their potential.</p><h2>Our Facilities</h2><ul><li>4 professional dance studios with sprung floors</li><li>Full-length mirrors and professional sound systems</li><li>Viewing windows for parents</li><li>Student lounge and changing rooms</li><li>Costume shop and props storage</li></ul>",
+            "summary": "Rhythm & Grace Dance Studio has been a cornerstone of the local arts community since 2005. Founded by former professional dancer Maria Esperanza, the studio began with just two ballet classes and has "
+          }
+        }
+      }
+    }
+  },
+  "/policies": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-policies",
+          "title": "Studio Policies",
+          "path": "/policies",
+          "body": {
+            "processed": "<h2>Dress Code</h2><p>Each dance style has specific attire requirements. Ballet students wear leotards, tights, and ballet shoes. Hip hop students wear comfortable athletic clothing and clean sneakers. Detailed dress code guides are available at registration.</p><h2>Attendance</h2><p>Regular attendance is essential for progress. Students who miss more than 3 consecutive classes without notice may lose their spot in competitive-level classes.</p><h2>Registration</h2><p>Classes run on a semester basis with enrollment opening 4 weeks before each session. Drop-in rates are available for select classes when space permits.</p><h2>Refund Policy</h2><p>Full refunds are available within the first two weeks of a new semester. After that, tuition is prorated based on remaining classes.</p>",
+            "summary": "Dress CodeEach dance style has specific attire requirements. Ballet students wear leotards, tights, and ballet shoes. Hip hop students wear comfortable athletic clothing and clean sneakers. Detailed d"
+          }
+        }
+      }
+    }
+  }
+}

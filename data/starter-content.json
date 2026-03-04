@@ -1,0 +1,423 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Landing page",
+      "fields": [
+        {
+          "id": "hero_title",
+          "label": "Hero Title",
+          "type": "string"
+        },
+        {
+          "id": "hero_subtitle",
+          "label": "Hero Subtitle",
+          "type": "string"
+        },
+        {
+          "id": "hero_description",
+          "label": "Hero Description",
+          "type": "text"
+        },
+        {
+          "id": "features_items",
+          "label": "Feature Items",
+          "type": "paragraph(feature_item)[]"
+        },
+        {
+          "id": "cta_title",
+          "label": "CTA Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_description",
+          "label": "CTA Description",
+          "type": "text"
+        },
+        {
+          "id": "cta_primary",
+          "label": "CTA Primary",
+          "type": "string"
+        },
+        {
+          "id": "cta_secondary",
+          "label": "CTA Secondary",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "bundle": "class",
+      "label": "Class",
+      "description": "Dance class",
+      "body": true,
+      "fields": [
+        {
+          "id": "dance_style",
+          "label": "Dance Style",
+          "type": "string"
+        },
+        {
+          "id": "age_group",
+          "label": "Age Group",
+          "type": "string"
+        },
+        {
+          "id": "schedule",
+          "label": "Schedule",
+          "type": "string"
+        },
+        {
+          "id": "image",
+          "label": "Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "instructor",
+      "label": "Instructor",
+      "description": "Dance instructor",
+      "body": true,
+      "fields": [
+        {
+          "id": "specialty",
+          "label": "Specialty",
+          "type": "string"
+        },
+        {
+          "id": "email",
+          "label": "Email",
+          "type": "string"
+        },
+        {
+          "id": "photo",
+          "label": "Photo",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "performance",
+      "label": "Performance",
+      "description": "Dance performance",
+      "body": true,
+      "fields": [
+        {
+          "id": "performance_date",
+          "label": "Performance Date",
+          "type": "datetime"
+        },
+        {
+          "id": "venue",
+          "label": "Venue",
+          "type": "string"
+        },
+        {
+          "id": "ticket_price",
+          "label": "Ticket Price",
+          "type": "string"
+        },
+        {
+          "id": "image",
+          "label": "Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static page",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "feature_item",
+      "label": "Feature Item",
+      "fields": [
+        {
+          "id": "icon",
+          "label": "Icon",
+          "type": "string"
+        },
+        {
+          "id": "title",
+          "label": "Title",
+          "type": "string!"
+        },
+        {
+          "id": "description",
+          "label": "Description",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "f1",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "music",
+        "title": "Diverse Styles",
+        "description": "Ballet, contemporary, hip hop, jazz, salsa, and more under one roof."
+      }
+    },
+    {
+      "id": "f2",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "users",
+        "title": "World-Class Instructors",
+        "description": "Teachers with Broadway, international competition, and conservatory backgrounds."
+      }
+    },
+    {
+      "id": "f3",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "star",
+        "title": "Performance Opportunities",
+        "description": "Annual showcases, community events, and competition teams for all ages."
+      }
+    },
+    {
+      "id": "f4",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "heart",
+        "title": "All Ages Welcome",
+        "description": "Programs for children, teens, adults, and seniors at every skill level."
+      }
+    },
+    {
+      "id": "f5",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "home",
+        "title": "Professional Studios",
+        "description": "Sprung floors, mirrors, professional sound, and climate-controlled rooms."
+      }
+    },
+    {
+      "id": "f6",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "sparkles",
+        "title": "Community Spirit",
+        "description": "A warm, supportive environment where dancers inspire each other."
+      }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Rhythm & Motion Dance",
+        "hero_title": "Move to Your Own Rhythm",
+        "hero_subtitle": "Rhythm & Motion Dance",
+        "hero_description": "<p>Where passion meets technique. Professional dance instruction for all ages, all styles, all levels.</p>",
+        "features_items": [
+          "@f1",
+          "@f2",
+          "@f3",
+          "@f4",
+          "@f5",
+          "@f6"
+        ],
+        "cta_title": "Start Dancing Today",
+        "cta_description": "<p>Your first class is on us. Discover the joy of dance in a welcoming, inspiring studio.</p>",
+        "cta_primary": "Register Now",
+        "cta_secondary": "View Classes"
+      }
+    },
+    {
+      "id": "class-ballet",
+      "type": "node.class",
+      "path": "/classes/classical-ballet",
+      "values": {
+        "title": "Classical Ballet",
+        "body": "<p>Foundational ballet training emphasizing technique, posture, and artistry. From barre work to center combinations, develop the grace and discipline that underlies all dance forms.</p>",
+        "dance_style": "Ballet",
+        "age_group": "Teens & Adults",
+        "schedule": "Mon/Wed/Fri 10:00 AM, Tue/Thu 4:00 PM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=800&q=80",
+          "alt": "Ballet class",
+          "title": "Classical Ballet"
+        }
+      }
+    },
+    {
+      "id": "class-hiphop",
+      "type": "node.class",
+      "path": "/classes/hip-hop-groove",
+      "values": {
+        "title": "Hip Hop Groove",
+        "body": "<p>High-energy hip hop choreography set to the latest beats. Learn popping, locking, breaking fundamentals, and freestyle expression in an electric atmosphere.</p>",
+        "dance_style": "Hip Hop",
+        "age_group": "All Ages",
+        "schedule": "Tue/Thu 6:00 PM, Sat 11:00 AM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1547153760-18fc86324498?w=800&q=80",
+          "alt": "Hip hop class",
+          "title": "Hip Hop Groove"
+        }
+      }
+    },
+    {
+      "id": "class-contemp",
+      "type": "node.class",
+      "path": "/classes/contemporary-fusion",
+      "values": {
+        "title": "Contemporary Fusion",
+        "body": "<p>Blending modern, jazz, and improvisational techniques. Explore emotional expression through movement, floor work, and partnering.</p>",
+        "dance_style": "Contemporary",
+        "age_group": "Teens & Adults",
+        "schedule": "Mon/Wed 7:00 PM, Sat 1:00 PM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=800&q=80",
+          "alt": "Contemporary dance",
+          "title": "Contemporary Fusion"
+        }
+      }
+    },
+    {
+      "id": "class-salsa",
+      "type": "node.class",
+      "path": "/classes/salsa-bachata",
+      "values": {
+        "title": "Salsa & Bachata",
+        "body": "<p>Learn the hottest Latin dance styles with a focus on rhythm, partner connection, and social dancing. No partner needed to join.</p>",
+        "dance_style": "Latin",
+        "age_group": "Adults",
+        "schedule": "Fri 7:30 PM, Sun 3:00 PM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=800&q=80",
+          "alt": "Salsa dancing",
+          "title": "Salsa & Bachata"
+        }
+      }
+    },
+    {
+      "id": "instr-nina",
+      "type": "node.instructor",
+      "path": "/instructors/nina-alvarez",
+      "values": {
+        "title": "Nina Alvarez",
+        "body": "<p>Former principal dancer with the National Ballet Company. Nina brings 20 years of professional performance and teaching experience, nurturing technique and artistry in every student.</p>",
+        "specialty": "Ballet & Contemporary",
+        "email": "nina@rhythmmotion.com",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
+          "alt": "Nina Alvarez",
+          "title": "Nina Alvarez"
+        }
+      }
+    },
+    {
+      "id": "instr-dj",
+      "type": "node.instructor",
+      "path": "/instructors/dj-williams",
+      "values": {
+        "title": "DJ Williams",
+        "body": "<p>Award-winning hip hop choreographer who has worked with top music artists and appeared on national television. His classes are high-energy, creative, and push boundaries.</p>",
+        "specialty": "Hip Hop & Street Dance",
+        "email": "dj@rhythmmotion.com",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=800&q=80",
+          "alt": "DJ Williams",
+          "title": "DJ Williams"
+        }
+      }
+    },
+    {
+      "id": "instr-carmen",
+      "type": "node.instructor",
+      "path": "/instructors/carmen-ruiz",
+      "values": {
+        "title": "Carmen Ruiz",
+        "body": "<p>International salsa champion and social dance ambassador. Carmen makes Latin dance accessible and joyful, whether you have two left feet or ten years of experience.</p>",
+        "specialty": "Latin Dance",
+        "email": "carmen@rhythmmotion.com",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?w=800&q=80",
+          "alt": "Carmen Ruiz",
+          "title": "Carmen Ruiz"
+        }
+      }
+    },
+    {
+      "id": "perf-spring",
+      "type": "node.performance",
+      "path": "/performances/spring-showcase",
+      "values": {
+        "title": "Spring Showcase 2026",
+        "body": "<p>Our annual spring showcase featuring performances from every class and age group. A celebration of a season's worth of hard work, creativity, and growth.</p><h2>Program</h2><ul><li>Youth Ballet Ensemble</li><li>Teen Hip Hop Crew</li><li>Adult Contemporary Company</li><li>Latin Dance Spectacular</li></ul>",
+        "performance_date": "2026-05-15T19:00:00",
+        "venue": "Civic Theater Main Stage",
+        "ticket_price": "$25",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=800&q=80",
+          "alt": "Spring showcase",
+          "title": "Spring Showcase"
+        }
+      }
+    },
+    {
+      "id": "perf-nutcracker",
+      "type": "node.performance",
+      "path": "/performances/urban-nutcracker",
+      "values": {
+        "title": "The Urban Nutcracker",
+        "body": "<p>A modern reimagining of the holiday classic blending classical ballet with hip hop, jazz, and contemporary styles. A holiday tradition for the whole family.</p>",
+        "performance_date": "2026-12-18T19:30:00",
+        "venue": "Performing Arts Center",
+        "ticket_price": "$35",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=800&q=80",
+          "alt": "Urban Nutcracker",
+          "title": "Urban Nutcracker"
+        }
+      }
+    },
+    {
+      "id": "perf-gala",
+      "type": "node.performance",
+      "path": "/performances/summer-gala",
+      "values": {
+        "title": "Summer Dance Gala",
+        "body": "<p>An elegant evening of dance featuring our advanced company performing original choreography by guest artists from around the world.</p>",
+        "performance_date": "2026-08-22T20:00:00",
+        "venue": "Grand Ballroom, Hilton",
+        "ticket_price": "$45",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=800&q=80",
+          "alt": "Summer gala",
+          "title": "Summer Gala"
+        }
+      }
+    },
+    {
+      "id": "about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Rhythm & Motion Dance",
+        "body": "<p>Rhythm & Motion Dance has been a cornerstone of our community's arts scene since 2010. What began as a small ballet studio has grown into a vibrant multi-discipline dance center.</p><h2>Our Mission</h2><p>To ignite the love of dance in people of all ages and backgrounds, fostering creativity, confidence, and community through movement.</p><h2>Our Studios</h2><p>Three state-of-the-art studios with sprung floors, professional sound systems, and full-length mirrors provide the perfect environment for learning and performing.</p>"
+      }
+    },
+    {
+      "id": "faq",
+      "type": "node.page",
+      "path": "/faq",
+      "values": {
+        "title": "FAQ",
+        "body": "<h2>Do I need dance experience?</h2><p>Not at all! We have beginner classes in every style. Our instructors will make you feel comfortable from day one.</p><h2>What should I wear?</h2><p>Comfortable clothing you can move in. Ballet requires specific attire — ask us for details.</p><h2>How old does my child need to be?</h2><p>We accept students from age 3 for creative movement, and structured classes begin at age 5.</p><h2>Can I watch a class before enrolling?</h2><p>Absolutely! Contact us to schedule an observation visit.</p>"
+      }
+    }
+  ]
+}

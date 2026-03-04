@@ -1,0 +1,135 @@
+{
+  "data": {
+    "nodePerformances": {
+      "__typename": "NodePerformanceConnection",
+      "nodes": [
+        {
+          "__typename": "NodePerformance",
+          "id": "performance-spring",
+          "title": "Spring Showcase 2026",
+          "path": "/performances/spring-showcase-2026",
+          "body": {
+            "processed": "<p>Our annual spring showcase features performances from every class and age group in the studio. From tiny tots in their first tutus to our advanced company dancers, this beloved community event celebrates a year of growth, dedication, and artistry.</p><h2>Program Highlights</h2><ul><li>Opening number featuring the entire studio</li><li>Classical ballet excerpts from Swan Lake</li><li>Student choreography showcase</li><li>Advanced company premiere piece</li></ul>",
+            "summary": "Our annual spring showcase features performances from every class and age group in the studio. From tiny tots in their first tutus to our advanced company dancers, this beloved community event celebra"
+          },
+          "performanceDate": {
+            "timestamp": 1778976000
+          },
+          "venue": "Civic Arts Center Main Stage",
+          "ticketPrice": "$20 adults, $12 children",
+          "ticketUrl": "https://example.com/spring-showcase-tickets",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=800&q=80",
+            "alt": "Dance performance on stage",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodePerformance",
+          "id": "performance-nutcracker",
+          "title": "The Nutcracker 2026",
+          "path": "/performances/the-nutcracker-2026",
+          "body": {
+            "processed": "<p>A holiday tradition since 2008, our full-length production of The Nutcracker enchants audiences with stunning costumes, a live orchestra, and dancers ranging from age 5 to adult. Over 100 performers bring this timeless story to life.</p><h2>Performances</h2><ul><li>Friday evening, December 11 at 7:00 PM</li><li>Saturday matinee, December 12 at 2:00 PM</li><li>Saturday evening, December 12 at 7:00 PM</li><li>Sunday matinee, December 13 at 2:00 PM</li></ul>",
+            "summary": "A holiday tradition since 2008, our full-length production of The Nutcracker enchants audiences with stunning costumes, a live orchestra, and dancers ranging from age 5 to adult. Over 100 performers b"
+          },
+          "performanceDate": {
+            "timestamp": 1797037200
+          },
+          "venue": "Grand Theater",
+          "ticketPrice": "$25-$45",
+          "ticketUrl": "https://example.com/nutcracker-tickets",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1509670811615-bb8b07cb3caf?w=800&q=80",
+            "alt": "Nutcracker ballet performance",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1509670811615-bb8b07cb3caf?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1509670811615-bb8b07cb3caf?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1509670811615-bb8b07cb3caf?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodePerformance",
+          "id": "performance-hiphop-battle",
+          "title": "Urban Moves Showcase",
+          "path": "/performances/urban-moves-showcase",
+          "body": {
+            "processed": "<p>An electrifying evening of hip hop, breaking, and urban dance styles. Featuring our hip hop classes, guest performers, and a freestyle battle open to all ages. DJ sets, food trucks, and a vibrant community atmosphere make this our most energetic event of the year.</p><h2>Event Details</h2><ul><li>Pre-show DJ set and food trucks at 5:00 PM</li><li>Showcase begins at 6:30 PM</li><li>Open freestyle battle at 8:00 PM</li><li>All ages welcome</li></ul>",
+            "summary": "An electrifying evening of hip hop, breaking, and urban dance styles. Featuring our hip hop classes, guest performers, and a freestyle battle open to all ages. DJ sets, food trucks, and a vibrant comm"
+          },
+          "performanceDate": {
+            "timestamp": 1787436000
+          },
+          "venue": "Studio Parking Lot (Outdoor Stage)",
+          "ticketPrice": "Free admission",
+          "ticketUrl": "https://example.com/urban-moves",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80",
+            "alt": "Urban dance showcase",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

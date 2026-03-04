@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Rhythm & Grace Dance Studio",
+          "path": "/homepage",
+          "heroTitle": "Where Every Step Tells a Story",
+          "heroSubtitle": "Rhythm & Grace Dance Studio",
+          "heroDescription": {
+            "processed": "<p>From first steps to center stage, we nurture dancers of all ages and abilities in a creative, supportive environment. Discover the joy of movement with our world-class instructors.</p>",
+            "summary": "From first steps to center stage, we nurture dancers of all ages and abilities in a creative, supportive environment. Discover the joy of movement with our world-class instructors."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-students",
+              "title": "",
+              "number": "500+",
+              "label": "Enrolled Students"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-styles",
+              "title": "",
+              "number": "12",
+              "label": "Dance Styles"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-performances",
+              "title": "",
+              "number": "8",
+              "label": "Annual Performances"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "20+",
+              "label": "Years of Excellence"
+            }
+          ],
+          "featuredItemsTitle": "Popular Classes",
+          "ctaTitle": "Start Dancing Today",
+          "ctaDescription": {
+            "processed": "<p>New students receive a free trial class in any style. No experience necessary -- just bring your enthusiasm and comfortable clothing.</p>",
+            "summary": "New students receive a free trial class in any style. No experience necessary -- just bring your enthusiasm and comfortable clothing."
+          },
+          "ctaPrimary": "Book Trial Class",
+          "ctaSecondary": "View Schedule"
+        }
+      ]
+    }
+  }
+}
