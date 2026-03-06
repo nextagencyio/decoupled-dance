@@ -19,7 +19,7 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-students",
               "title": "",
-              "number": "500+", "value": "500+",
+              "number": "500", "value": "500",
               "label": "Enrolled Students"
             },
             {
