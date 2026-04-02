@@ -63,8 +63,6 @@ export interface DrupalHomepage extends DrupalNode {
   heroDescription?: {
     processed: string
   }
-  featuresTitle?: string
-  featuresSubtitle?: string
   featuresItems?: DrupalFeature[]
   ctaTitle?: string
   ctaDescription?: {
@@ -98,7 +96,6 @@ export interface DrupalClass {
   body?: { processed: string; summary?: string }
   danceStyle?: string
   ageGroup?: string
-  classLevel?: string
   schedule?: string
   image?: { url: string; alt: string; width?: number; height?: number; variations?: { name: string; url: string; width: number; height: number }[] }
 }
@@ -114,9 +111,8 @@ export interface DrupalInstructor {
   title: string
   path?: string
   body?: { processed: string; summary?: string }
-  danceStyles?: string
+  specialty?: string
   email?: string
-  trainingBackground?: string
   photo?: { url: string; alt: string; width?: number; height?: number; variations?: { name: string; url: string; width: number; height: number }[] }
 }
 
@@ -134,7 +130,6 @@ export interface DrupalPerformance {
   performanceDate?: { timestamp: string }
   venue?: string
   ticketPrice?: string
-  ticketUrl?: string
   image?: { url: string; alt: string; width?: number; height?: number; variations?: { name: string; url: string; width: number; height: number }[] }
 }
 

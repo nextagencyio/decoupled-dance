@@ -82,11 +82,17 @@ export const GET_HOMEPAGE_DATA = gql`
         path
         heroTitle
         heroSubtitle
-        heroDescription { processed summary }
-        statsItems { ... on ParagraphStatItem { id title description { processed } icon } }
-        featuredItemsTitle
+        heroDescription { processed }
+        featuresItems {
+          ... on ParagraphFeatureItem {
+            id
+            title
+            description { processed }
+            icon
+          }
+        }
         ctaTitle
-        ctaDescription { processed summary }
+        ctaDescription { processed }
         ctaPrimary
         ctaSecondary
       }
@@ -100,6 +106,7 @@ export const GET_NODE_BY_PATH = gql`
       ... on RouteInternal {
         entity {
           ... on NodePage {
+            __typename
             id
             title
             body {
@@ -107,6 +114,7 @@ export const GET_NODE_BY_PATH = gql`
             }
           }
           ... on NodeArticle {
+            __typename
             id
             title
             body {
@@ -132,6 +140,7 @@ export const GET_NODE_BY_PATH = gql`
             }
           }
           ... on NodeHomepage {
+            __typename
             id
             title
             heroTitle
@@ -139,8 +148,6 @@ export const GET_NODE_BY_PATH = gql`
             heroDescription {
               processed
             }
-            featuresTitle
-            featuresSubtitle
             featuresItems {
               ... on ParagraphFeatureItem {
                 id
@@ -157,6 +164,38 @@ export const GET_NODE_BY_PATH = gql`
             }
             ctaPrimary
             ctaSecondary
+          }
+          ... on NodeClass {
+            __typename
+            id
+            title
+            path
+            body { processed summary }
+            danceStyle
+            ageGroup
+            schedule
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+          }
+          ... on NodeInstructor {
+            __typename
+            id
+            title
+            path
+            body { processed summary }
+            specialty
+            email
+            photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+          }
+          ... on NodePerformance {
+            __typename
+            id
+            title
+            path
+            body { processed summary }
+            performanceDate { timestamp }
+            venue
+            ticketPrice
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
         }
       }
@@ -176,7 +215,6 @@ export const GET_CLASSES = gql`
           body { processed summary }
           danceStyle
           ageGroup
-          classLevel
           schedule
           image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
         }
@@ -194,12 +232,11 @@ export const GET_CLASS_BY_PATH = gql`
             id
             title
             path
-          body { processed summary }
-          danceStyle
-          ageGroup
-          classLevel
-          schedule
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            body { processed summary }
+            danceStyle
+            ageGroup
+            schedule
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
         }
       }
@@ -217,9 +254,8 @@ export const GET_INSTRUCTORS = gql`
         created { timestamp }
         ... on NodeInstructor {
           body { processed summary }
-          danceStyles
+          specialty
           email
-          trainingBackground
           photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
         }
       }
@@ -236,11 +272,10 @@ export const GET_INSTRUCTOR_BY_PATH = gql`
             id
             title
             path
-          body { processed summary }
-          danceStyles
-          email
-          trainingBackground
-          photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            body { processed summary }
+            specialty
+            email
+            photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
         }
       }
@@ -261,7 +296,6 @@ export const GET_PERFORMANCES = gql`
           performanceDate { timestamp }
           venue
           ticketPrice
-          ticketUrl
           image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
         }
       }
@@ -278,12 +312,11 @@ export const GET_PERFORMANCE_BY_PATH = gql`
             id
             title
             path
-          body { processed summary }
-          performanceDate { timestamp }
-          venue
-          ticketPrice
-          ticketUrl
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            body { processed summary }
+            performanceDate { timestamp }
+            venue
+            ticketPrice
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
         }
       }

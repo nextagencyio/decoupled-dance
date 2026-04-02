@@ -12,9 +12,8 @@
             "processed": "<p>Adriana trained at the School of American Ballet and performed professionally with the Pacific Northwest Ballet for eight seasons before transitioning to teaching. Her ballet classes are known for their precision, musicality, and warmth.</p><p>She has choreographed award-winning pieces for regional competitions and our annual showcase. Students of all ages thrive under her patient, detail-oriented guidance.</p>",
             "summary": "Adriana trained at the School of American Ballet and performed professionally with the Pacific Northwest Ballet for eight seasons before transitioning to teaching. Her ballet classes are known for the"
           },
-          "danceStyles": "Ballet, Pointe, Character",
+          "specialty": "Ballet, Pointe, Character",
           "email": "adriana@rhythmandgrace.com",
-          "trainingBackground": "School of American Ballet, Pacific Northwest Ballet",
           "photo": {
             "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
             "alt": "Adriana Russo, ballet instructor",
@@ -51,9 +50,8 @@
             "processed": "<p>DeShawn has been a fixture in the underground hip hop scene for over a decade, competing internationally and choreographing for music videos and live shows. His classes bring the raw energy and authenticity of street dance to the studio.</p><p>He is passionate about preserving hip hop culture while making it accessible to the next generation of dancers.</p>",
             "summary": "DeShawn has been a fixture in the underground hip hop scene for over a decade, competing internationally and choreographing for music videos and live shows. His classes bring the raw energy and authen"
           },
-          "danceStyles": "Hip Hop, Breaking, Popping",
+          "specialty": "Hip Hop, Breaking, Popping",
           "email": "deshawn@rhythmandgrace.com",
-          "trainingBackground": "Self-taught, international competition circuit",
           "photo": {
             "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
             "alt": "DeShawn Williams, hip hop instructor",
@@ -90,9 +88,8 @@
             "processed": "<p>Katrina holds an MFA in Dance from NYU Tisch School of the Arts and has performed with Parsons Dance and the Martha Graham Dance Company. Her contemporary classes challenge students to find their unique artistic voice through movement exploration.</p><p>She also directs our student performance company, preparing dancers for collegiate and professional careers.</p>",
             "summary": "Katrina holds an MFA in Dance from NYU Tisch School of the Arts and has performed with Parsons Dance and the Martha Graham Dance Company. Her contemporary classes challenge students to find their uniq"
           },
-          "danceStyles": "Contemporary, Modern, Jazz",
+          "specialty": "Contemporary, Modern, Jazz",
           "email": "katrina@rhythmandgrace.com",
-          "trainingBackground": "NYU Tisch MFA, Martha Graham School",
           "photo": {
             "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
             "alt": "Katrina Novak, contemporary dance instructor",

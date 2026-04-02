@@ -14,7 +14,6 @@
           },
           "danceStyle": "Ballet",
           "ageGroup": "Ages 7 and up",
-          "classLevel": "Beginner to Advanced",
           "schedule": "Mon/Wed 4:00 PM (Beginner), Tue/Thu 5:30 PM (Intermediate), Sat 10:00 AM (Advanced)",
           "image": {
             "url": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=800&q=80",
@@ -54,7 +53,6 @@
           },
           "danceStyle": "Hip Hop",
           "ageGroup": "Ages 10 and up",
-          "classLevel": "All Levels",
           "schedule": "Tue/Thu 6:30 PM, Sat 1:00 PM",
           "image": {
             "url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
@@ -94,7 +92,6 @@
           },
           "danceStyle": "Contemporary",
           "ageGroup": "Ages 12 and up",
-          "classLevel": "Intermediate",
           "schedule": "Mon/Wed 6:00 PM, Fri 4:00 PM",
           "image": {
             "url": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=800&q=80",

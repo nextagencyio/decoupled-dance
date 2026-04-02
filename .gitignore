@@ -6,6 +6,8 @@
 
 # Testing
 /coverage
+/test-results/
+/playwright-report/
 
 # Next.js
 /.next/
@@ -89,3 +91,8 @@ storybook-static
 # Temporary folders
 tmp/
 temp/
+
+# Generated schema (regenerated via npm run sync-schema)
+/schema/schema.graphql
+/schema/introspection.json
+/schema/types.ts

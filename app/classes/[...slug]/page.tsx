@@ -118,12 +118,6 @@ export default async function ClassDetailPage({ params }: PageProps) {
                       <dd className="font-semibold text-gray-900">{(item as any).ageGroup}</dd>
                     </div>
                   )}
-                  {(item as any).classLevel && (
-                    <div>
-                      <dt className="text-sm text-gray-500">Level</dt>
-                      <dd className="font-semibold text-gray-900">{(item as any).classLevel}</dd>
-                    </div>
-                  )}
                   {(item as any).schedule && (
                     <div>
                       <dt className="text-sm text-gray-500">Schedule</dt>

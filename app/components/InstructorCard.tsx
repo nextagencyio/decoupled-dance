@@ -42,9 +42,9 @@ export default function InstructorCard({ item }: InstructorCardProps) {
       </div>
 
       <div className="p-6">
-        {(item as any).danceStyles && (
+        {(item as any).specialty && (
           <span className={`inline-block px-3 py-1 rounded-full text-xs font-bold mb-3 ${accent.badge}`}>
-            {(item as any).danceStyles}
+            {(item as any).specialty}
           </span>
         )}
         <h3 className="text-xl font-bold font-display text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">

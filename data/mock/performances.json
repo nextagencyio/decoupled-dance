@@ -17,7 +17,6 @@
           },
           "venue": "Civic Arts Center Main Stage",
           "ticketPrice": "$20 adults, $12 children",
-          "ticketUrl": "https://example.com/spring-showcase-tickets",
           "image": {
             "url": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=800&q=80",
             "alt": "Dance performance on stage",
@@ -59,7 +58,6 @@
           },
           "venue": "Grand Theater",
           "ticketPrice": "$25-$45",
-          "ticketUrl": "https://example.com/nutcracker-tickets",
           "image": {
             "url": "https://images.unsplash.com/photo-1509670811615-bb8b07cb3caf?w=800&q=80",
             "alt": "Nutcracker ballet performance",
@@ -101,7 +99,6 @@
           },
           "venue": "Studio Parking Lot (Outdoor Stage)",
           "ticketPrice": "Free admission",
-          "ticketUrl": "https://example.com/urban-moves",
           "image": {
             "url": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80",
             "alt": "Urban dance showcase",

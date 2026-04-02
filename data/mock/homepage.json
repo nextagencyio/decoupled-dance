@@ -11,44 +11,55 @@
           "heroTitle": "Where Every Step Tells a Story",
           "heroSubtitle": "Rhythm & Grace Dance Studio",
           "heroDescription": {
-            "processed": "<p>From first steps to center stage, we nurture dancers of all ages and abilities in a creative, supportive environment. Discover the joy of movement with our world-class instructors.</p>",
-            "summary": "From first steps to center stage, we nurture dancers of all ages and abilities in a creative, supportive environment. Discover the joy of movement with our world-class instructors."
+            "processed": "<p>From first steps to center stage, we nurture dancers of all ages and abilities in a creative, supportive environment. Discover the joy of movement with our world-class instructors.</p>"
           },
-          "statsItems": [
+          "featuresItems": [
             {
-              "__typename": "ParagraphStatItem",
-              "id": "stat-students",
-              "title": "",
-              "number": "500", "value": "500",
-              "label": "Enrolled Students"
+              "__typename": "ParagraphFeatureItem",
+              "id": "feat-1",
+              "title": "Diverse Styles",
+              "description": { "processed": "<p>Ballet, contemporary, hip hop, jazz, salsa, and more under one roof.</p>" },
+              "icon": "music"
             },
             {
-              "__typename": "ParagraphStatItem",
-              "id": "stat-styles",
-              "title": "",
-              "number": "12", "value": "12",
-              "label": "Dance Styles"
+              "__typename": "ParagraphFeatureItem",
+              "id": "feat-2",
+              "title": "World-Class Instructors",
+              "description": { "processed": "<p>Teachers with Broadway, international competition, and conservatory backgrounds.</p>" },
+              "icon": "users"
             },
             {
-              "__typename": "ParagraphStatItem",
-              "id": "stat-performances",
-              "title": "",
-              "number": "8", "value": "8",
-              "label": "Annual Performances"
+              "__typename": "ParagraphFeatureItem",
+              "id": "feat-3",
+              "title": "Performance Opportunities",
+              "description": { "processed": "<p>Annual showcases, community events, and competition teams for all ages.</p>" },
+              "icon": "star"
             },
             {
-              "__typename": "ParagraphStatItem",
-              "id": "stat-years",
-              "title": "",
-              "number": "20+", "value": "20+",
-              "label": "Years of Excellence"
+              "__typename": "ParagraphFeatureItem",
+              "id": "feat-4",
+              "title": "All Ages Welcome",
+              "description": { "processed": "<p>Programs for children, teens, adults, and seniors at every skill level.</p>" },
+              "icon": "heart"
+            },
+            {
+              "__typename": "ParagraphFeatureItem",
+              "id": "feat-5",
+              "title": "Professional Studios",
+              "description": { "processed": "<p>Sprung floors, mirrors, professional sound, and climate-controlled rooms.</p>" },
+              "icon": "home"
+            },
+            {
+              "__typename": "ParagraphFeatureItem",
+              "id": "feat-6",
+              "title": "Community Spirit",
+              "description": { "processed": "<p>A warm, supportive environment where dancers inspire each other.</p>" },
+              "icon": "sparkles"
             }
           ],
-          "featuredItemsTitle": "Popular Classes",
           "ctaTitle": "Start Dancing Today",
           "ctaDescription": {
-            "processed": "<p>New students receive a free trial class in any style. No experience necessary -- just bring your enthusiasm and comfortable clothing.</p>",
-            "summary": "New students receive a free trial class in any style. No experience necessary -- just bring your enthusiasm and comfortable clothing."
+            "processed": "<p>New students receive a free trial class in any style. No experience necessary -- just bring your enthusiasm and comfortable clothing.</p>"
           },
           "ctaPrimary": "Book Trial Class",
           "ctaSecondary": "View Schedule"

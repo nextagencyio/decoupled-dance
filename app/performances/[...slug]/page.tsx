@@ -118,12 +118,6 @@ export default async function PerformanceDetailPage({ params }: PageProps) {
                       <dd className="font-semibold text-gray-900">{(item as any).ticketPrice}</dd>
                     </div>
                   )}
-                  {(item as any).ticketUrl && (
-                    <div>
-                      <dt className="text-sm text-gray-500">Ticket URL</dt>
-                      <dd className="font-semibold text-gray-900">{(item as any).ticketUrl}</dd>
-                    </div>
-                  )}
                 </dl>
                 <div className="mt-8">
                   <Link

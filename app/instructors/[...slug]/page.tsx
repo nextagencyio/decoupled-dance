@@ -106,22 +106,16 @@ export default async function InstructorDetailPage({ params }: PageProps) {
               <div className="bg-white rounded-xl shadow-sm p-6 sticky top-24">
                 <h3 className="text-lg font-bold text-gray-900 mb-4">Details</h3>
                 <dl className="space-y-4">
-                  {(item as any).danceStyles && (
+                  {(item as any).specialty && (
                     <div>
-                      <dt className="text-sm text-gray-500">Dance Styles</dt>
-                      <dd className="font-semibold text-gray-900">{(item as any).danceStyles}</dd>
+                      <dt className="text-sm text-gray-500">Specialty</dt>
+                      <dd className="font-semibold text-gray-900">{(item as any).specialty}</dd>
                     </div>
                   )}
                   {(item as any).email && (
                     <div>
                       <dt className="text-sm text-gray-500">Email</dt>
                       <dd className="font-semibold text-gray-900">{(item as any).email}</dd>
-                    </div>
-                  )}
-                  {(item as any).trainingBackground && (
-                    <div>
-                      <dt className="text-sm text-gray-500">Training Background</dt>
-                      <dd className="font-semibold text-gray-900">{(item as any).trainingBackground}</dd>
                     </div>
                   )}
                 </dl>
