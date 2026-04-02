@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getPerformances() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_PERFORMANCES, { first: 50 })
+    const data = await client.raw(GET_PERFORMANCES, { first: 50 })
     return data?.nodePerformances?.nodes || []
   } catch (error) {
     console.error('Error fetching performances:', error)
@@ -59,7 +59,7 @@ export default async function PerformancesPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <PerformanceCard key={item.id} item={item} />
               ))}
             </div>
